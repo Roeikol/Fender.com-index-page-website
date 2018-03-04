@@ -5,7 +5,10 @@
 	 <meta charset="UTF-8">
 	 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	 <link rel="stylesheet" type="text/css" href="css/main_style.css">
+	 <link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
+	 
 </head>
 <body>
 	<div id="wrapper">
@@ -357,132 +360,193 @@
 		<main>
 
 			<!-- slide gallery -->
+			<div class = gallery>
+				<ul class="rslides">
+				    <li>
+						<img src="images/orange.jpg"/>
+						<div class="image-content">
+							<h2>AMERICAN <br> PROFESSIONAL</h2>
+							<p>New Colors, Elevated Features, Limitless Possibilities</p>
+							<div class="image-links">
+								<a>SHOP ALL</a>
+								<a>LEARN MORE</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="images/pedals.jpg">
+						<div class="image-content">
+							<p>Introducing</p>
+							<h2>FENDER EFFECTS PEDALS</h2>
+							<p>Original Designs. Fender Tone.</p>
+							<div class="image-links">
+								<a>LEARN MORE</a>
+							</div>
+						</div>
+					</li>
+					<li	>
+						<img src="images/man.jpg">
+						<div class="image-content man_image">
+							<p>Introducing</p>
+							<h2>THE AMERICAN ORIGINAL <br> SERIES</h2>
+							<p>Classic Design Made New</p>
+							<div class="image-links">
+								<a>LEARN MORE</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="images/amp.jpg">
+						<div class="image-content">
+							<p>Introducing the</p>
+							<h2>HOT ROD IV AMPLIFIER <br> SERIES</h2>
+							<p>UPDATED. NEVER UPSTAGED.</p>>
+							<div class="image-links">
+								<a>LEARN MORE</a>
+							</div>
+						</div>
+					</li>
+			    </ul>
+			</div>
 
-			<div id="slide_gallery"></div>
+		<!-- trending -->
 		
 			<div id="trending_wrapper">
+				<div id="trending_header">
+					<h1>WHAT'S TRENDING NOW</h1>
+				</div>
+				<div id="trending_item_wrapper">
 					<div class="trending-item">
-						<img src="" alt="" class="trending-img">
-						<p class="trending-sub-title">FENDER ACOUSTIC GUITARS</p>
-						<p class="trending-sub-text">See the Range</p>
-						<a class="trending-learn-more" href="#"></a>
+						<img src="images/eric_johnson.png" alt="eric_johnson" class="trending-img">
+						<p class="trending-sub-title">ERIC JOHNSON</p>
+						<p class="trending-sub-text">Signature Stratocaster Thinline</p>
+						<a class="trending-learn-more" href="#">LEARN MORE</a>
 					</div>
 					<div class="trending-item">
-						<img src="" alt="" class="trending-img">
+						<img src="images/paramount.jpg" alt="paramount" class="trending-img">
+						<p class="trending-sub-title">PARAMOUNT</p>
+						<p class="trending-sub-text">Premium Materials, Superior Design</p>
+						<a class="trending-learn-more" href="#">LEARN MORE</a>
+					</div>
+					<div class="trending-item">
+						<img src="images/squier.png" alt="squier" class="trending-img">
 						<p class="trending-sub-title">SQUIER</p>
-						<p class="trending-sub-text">Browse All Squier Here</p>
-						<a class="trending-learn-more" href="#"></a>
+						<p class="trending-sub-text">Find your sound</p>
+						<a class="trending-learn-more" href="#">LEARN MORE</a>
 					</div>
 					<div class="trending-item">
-						<img src="" alt="" class="trending-img">
-						<p class="trending-sub-title">GET THEIR SOUND</p>
-						<p class="trending-sub-text">Browse Artist Guitars</p>
-						<a class="trending-learn-more" href="#"></a>
-					</div>
-					<div class="trending-item">
-						<img src="" alt="" class="trending-img">
-						<p class="trending-sub-title">THERE ARE NO WORDS</p>
-						<p class="trending-sub-text">View All Bassbreaker</p>
-						<a class="trending-learn-more" href="#"></a>
+						<img src="images/clean.jpg" alt="clean" class="trending-img">
+						<p class="trending-sub-title">NEW GUITAR?</p>
+						<p class="trending-sub-text">Browse Care & Cleaning</p>
+						<a class="trending-learn-more" href="#">LEARN MORE</a>
 					</div>
 				</div>
 			</div>
+
 		</main>
 
 	<!-- footer -->
 
 		<footer>
-			<a id="back_to_top" href=""></a>
+			<div id="footer_wrapper">
+				<button id="back_to_top"> &#9650; <br> BACK <br> TO TOP</button>
 
-	<!-- social nav -->
+				<!-- social nav -->
 
-			<div id="social-icons-container">
-				<a href="#" class="social-icon"></a>
-				<a href="#" class="social-icon"></a>
-				<a href="#" class="social-icon"></a>
-				<a href="#" class="social-icon"></a>
-				<a href="#" class="social-icon"></a>
-				<a href="#" class="social-icon"></a>
-				<a href="#" class="social-icon"></a>
-				<a href="#" class="social-icon"></a>
-			</div>
-
-	<!-- footer nav -->
-
-			<div id="footer_nav">
-				<div class="footer-nav-item">
-					<h6 class="footer-nav-title">COMPANY</h6>
-					<ul class="footer-nav-list">
-						<li class="footer-nav-list-item"><a href="#">About</a></li>
-						<li class="footer-nav-list-item"><a href="#">Contact Us</a></li>
-						<li class="footer-nav-list-item"><a href="#">Careers</a></li>
-						<li class="footer-nav-list-item"><a href="#">Newsroom</a></li>
-					</ul>
+				<div id="social-icons-container">
+					<a href="#" class="fa fa-facebook-f social-icon"></a>
+					<a href="#" class="fa fa-twitter social-icon"></a>
+					<a href="#" class="fa fa-snapchat social-icon"></a>
+					<a href="#" class="fa fa-pinterest-p social-icon"></a>
+					<a href="#" class="fa fa-instagram social-icon"></a>
+					<a href="#" class="fa fa-youtube social-icon"></a>
+					<a href="#" class="fa fa-google-plus social-icon"></a>
+					<a href="#" class="fa fa-tumblr	social-icon"></a>
 				</div>
 
-				<div class="footer-nav-item">
-					<h6 class="footer-nav-title">CUSTOMER SERVICE</h6>
-					<ul class="footer-nav-list">
-						<li class="footer-nav-list-item">
-							<a href="#">Support</a>
-						</li>
-					</ul>
-				</div>
+			<!-- footer nav -->
 
-				<div class="footer-nav-item">
-					<h6 class="footer-nav-title">MORE FROM FENDER</h6>
-					<ul class="footer-nav-list">
-						<li class="footer-nav-list-item"><a href="#">Electric Guitars</a></li>
-						<li class="footer-nav-list-item"><a href="#">Stratocaster</a></li>
-						<li class="footer-nav-list-item"><a href="#">Telecaster</a></li>
-						<li class="footer-nav-list-item"><a href="#">Guitar Amplifiers</a></li>
-						<li class="footer-nav-list-item"><a href="#">Basses</a></li>
-						<li class="footer-nav-list-item"><a href="#">Acoustic Guitars</a></li>
-						<li class="footer-nav-list-item"><a href="#">Find a Dealer</a></li>
-						<li class="footer-nav-list-item"><a href="#">Forums</a></li>
-						<li class="footer-nav-list-item"><a href="#">Fender® FUSE™</a></li>
-						<li class="footer-nav-list-item"><a href="#">Online Guitar Tuner</a></li>
-						<li class="footer-nav-list-item"><a href="#">Tuner App</a></li>
-						<li class="footer-nav-list-item"><a href="#">Guitar Chords by Riffstation</a></li>
-						<li class="footer-nav-list-item"><a href="#">Riffstation iPhone</a></li>
-						<li class="footer-nav-list-item"><a href="#">Riffstation Pro</a></li>
-						<li class="footer-nav-list-item"><a href="#">Fender Tone</a></li>
-						<li class="footer-nav-list-item"><a href="#">Tone App</a></li>
-					</ul>
-				</div>
-			</div>
+				<div id="footer_nav">
+					<div class="footer-nav-item">
+						<h6 class="footer-nav-title">COMPANY</h6>
+						<ul class="footer-nav-list">
+							<li class="footer-nav-list-item"><a href="#">About</a></li>
+							<li class="footer-nav-list-item"><a href="#">Contact Us</a></li>
+							<li class="footer-nav-list-item"><a href="#">Careers</a></li>
+							<li class="footer-nav-list-item"><a href="#">Newsroom</a></li>
+						</ul>
+					</div>
 
-	<!-- bottom footer -->
+					<div class="footer-nav-item">
+						<h6 class="footer-nav-title">CUSTOMER SERVICE</h6>
+						<ul class="footer-nav-list">
+							<li class="footer-nav-list-item">
+								<a href="#">Support</a>
+							</li>
+						</ul>
+					</div>
 
-			<div id="bottom_footer">
-				<img src="" alt="" id="fender_logo_black">
-				
-				<div id="left_col">
-					<p class="copyright">
-						<span class="line-break-copyright">Copyright &copy;2017. Fender Musical Instruments Corporation.</span>
-						<span class="line-break-copyright">All Rights Reserved.</span>
-					</p>
-					<div id="region_select">
-						<span>Change your region:</span>
-						<span>International</span>
+					<div class="footer-nav-item">
+						<h6 class="footer-nav-title">MORE FROM FENDER</h6>
+						<ul class="footer-nav-list">
+							<li class="footer-nav-list-item"><a href="#">Electric Guitars</a></li>
+							<li class="footer-nav-list-item"><a href="#">Stratocaster</a></li>
+							<li class="footer-nav-list-item"><a href="#">Telecaster</a></li>
+							<li class="footer-nav-list-item"><a href="#">Guitar Amplifiers</a></li>
+							<li class="footer-nav-list-item"><a href="#">Basses</a></li>
+							<li class="footer-nav-list-item"><a href="#">Acoustic Guitars</a></li>
+							<li class="footer-nav-list-item"><a href="#">Find a Dealer</a></li>
+							<li class="footer-nav-list-item"><a href="#">Forums</a></li>
+							<li class="footer-nav-list-item"><a href="#">Fender® FUSE™</a></li>
+							<li class="footer-nav-list-item"><a href="#">Online Guitar Tuner</a></li>
+							<li class="footer-nav-list-item"><a href="#">Tuner App</a></li>
+							<li class="footer-nav-list-item"><a href="#">Guitar Chords by Riffstation</a></li>
+							<li class="footer-nav-list-item"><a href="#">Riffstation iPhone</a></li>
+							<li class="footer-nav-list-item"><a href="#">Riffstation Pro</a></li>
+							<li class="footer-nav-list-item"><a href="#">Fender Tone</a></li>
+							<li class="footer-nav-list-item"><a href="#">Tone App</a></li>
+						</ul>
 					</div>
 				</div>
 
-				<div id="right_col">
-					<ul>
-						<li><a href="#" class="global-footer-links">Privacy Policy</a></li>
-						<li><a href="#" class="global-footer-links">Terms & Conditions</a></li>
-						<li><a href="#" class="global-footer-links">Supply Chain Transparency</a></li>
-					</ul>
-				</div>
+	<!-- bottom footer -->
 
-			</div>
-			<div id="disclaimer">
-				<p>This project is a copy of fender.com index page for education purpose only without any commercial intent.</p>
+				<div id="bottom_footer">
+
+						<div class="logo-container">
+							<img src="images/black_logo.png" alt="fender_logo_black" class="fender_logo_black">
+						</div>
+					<div id="bottom_footer_columns">
+						<div id="left_col">
+							<p class="copyright">
+								Copyright &copy;2017. Fender Musical Instruments Corporation.<br>
+								All Rights Reserved.
+							</p>
+							<div id="region_select">
+								<span>Change your region</span>
+								<span>International</span>
+							</div>
+						</div>
+
+						<div id="right_col">
+							<ul>
+								<li><a href="#" class="global-footer-links">Privacy Policy</a></li>
+								<li><a href="#" class="global-footer-links">Terms & Conditions</a></li>
+								<li><a href="#" class="global-footer-links">Supply Chain Transparency</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<div id="disclaimer">
+					<p>This project is a copy of fender.com index page for education purpose only without any commercial intent.</p>
+				</div>
 			</div>
 		</footer>
 	</div>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/responsiveslides.js"></script>
+<script type="text/javascript" src="js/responsiveslides.min.js"></script>
 <script type="text/javascript" src="js/main_script.js"></script>
 </body>
 </html>
