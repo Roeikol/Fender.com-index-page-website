@@ -218,7 +218,7 @@ main{ padding-bottom: 30px; }
 	color:black !important;
 }
 #trending_wrapper{
-	max-width: 86%;
+	width: 86%;
 	margin: 30px auto;
 	display: flex;
 	flex-flow: row wrap;
