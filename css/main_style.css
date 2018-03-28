@@ -1,12 +1,12 @@
 :root { --main-color-red: rgb(213,43,30); 
-		--global-font-color: rgb(102,102,102);
+	--global-font-color: rgb(102,102,102);
 }
 
 body{
 	margin: 0;
 	font-size: 16px;
-    font-family: 'Source Sans Pro',"Helvetica",Helvetica,Arial,sans-serif;
-    background-color: rgb(255,255,255);
+	font-family: 'Source Sans Pro',"Helvetica",Helvetica,Arial,sans-serif;
+        background-color: rgb(255,255,255);
 }
 header{border-bottom: 1px solid #e0e0e0;}
 
@@ -17,7 +17,7 @@ header{border-bottom: 1px solid #e0e0e0;}
 #top_header_nav{
 	display: flex;
 	margin: auto;
-    padding-right: 2%;
+        padding-right: 2%;
 	text-align: center;
 }
 #top_header_nav .image_link{
@@ -28,21 +28,21 @@ header{border-bottom: 1px solid #e0e0e0;}
 	text-decoration: none;
 	color: #888;
 	font-size: 12px;
-    letter-spacing: .8px;
-    line-height: 1.5;
+        letter-spacing: .8px;
+        line-height: 1.5;
 }
 #top_header_nav .image_link:hover{ color: var(--main-color-red); }
 
 #main_header_wrapper{
 	display: flex;
 	padding-left: 2.8%;
-    padding-right: 2.8%;
-    align-items: center;
+        padding-right: 2.8%;
+        align-items: center;
 }
 #main_header_wrapper nav{
 	display: flex;
 	align-items: center;
-    margin-right: auto;
+        margin-right: auto;
 }
 nav .small-red-logo-img{
 	width: 94px;
@@ -67,10 +67,10 @@ nav .menu-title:hover .main-nav-item{
 nav .main-nav-item{
 	letter-spacing: .4px;
 	font-size: 12px;
-    color: var(--global-font-color);
-    text-decoration: none;
-    font-weight: 900;
-    padding-bottom: 19px;
+        color: var(--global-font-color);
+        text-decoration: none;
+        font-weight: 900;
+        padding-bottom: 19px;
 }
 .main-nav-item .triangle-down:after{
 	content: "\25BC";
@@ -130,7 +130,7 @@ nav .main-nav-item{
 
 .sub-menu ul{
 	padding: 0;
-    margin:0 28px 0 0; 
+        margin:0 28px 0 0; 
 	width: 30%;
 }
 .sub-menu ul > li{ list-style: none; }
@@ -230,8 +230,8 @@ main{ padding-bottom: 30px; }
 #trending_wrapper h1{
 	margin: 0 auto;
 	font-size: 31px;
-    font-weight: 900;
-    line-height: 1.16;
+        font-weight: 900;
+        line-height: 1.16;
 	text-align: center;
     border-bottom: 1px solid #e0e0e0;
 	padding-bottom: 16px;
